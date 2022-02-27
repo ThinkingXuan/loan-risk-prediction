@@ -18,7 +18,7 @@
 
   1. 赛题理解
 
-     ![图片1](C:\Users\youxuan\Pictures\图片1.png)
+     ![图片sadasd1](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/图片sadasd1.png)
 
   2. 数据探索性分析
 
@@ -30,30 +30,30 @@
      
      ![图片4](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/图片4.png)
      
-     ![图片5](C:\Users\youxuan\Pictures\图片5.png)
+     ![图片ewrwe5](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/图片ewrwe5.png)
      
 4. 特征工程
-  
+
   ![image-20220227200350616](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/image-20220227200350616.png)
-  
+
   ![image-20220227200407937](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/image-20220227200407937.png)
-  
+
   ![image-20220227200423124](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/image-20220227200423124.png)
-  
+
   ![image-20220227200442873](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/image-20220227200442873.png)
-  
+
   ![image-20220227200519869](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/image-20220227200519869.png)
-  
+
 5. 模型训练
-  
+
   使用**LightGBM**模型进行训练，拥有l更快的训练效率，更高的准确率和更低的内存使用。
-  
+
 6. 模型验证
-  
+
   ![image-20220227200641617](https://cdn.jsdelivr.net/gh/ThinkingXuan/HexoStaticImage/img/image-20220227200641617.png)
-  
+
 7. 调参
-  
+
   - 贝叶斯调参
   - 针对时间复杂度的问题，通过len(lgb.cv(params)[‘auc-mean’]))获得最好迭代步数，来进行剪枝，减少所耗时间 
   - 最终：**F1_score**提交中结果为**0.629**
